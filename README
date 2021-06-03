@@ -1,0 +1,59 @@
+variables:
+    $var variable_name = 
+
+function declaration:
+    $dec name[arg1, arg2] {
+
+    }
+
+built-in functions:
+    - print[]
+    - 
+
+class:
+    $class name[arg1, arg2] {
+
+    }
+
+arrays:
+    $var variable_name = ("item1", ("asdf", "asdf")) 
+
+namespaces:
+    $namespace name[arg1, arg2] {
+        
+    }
+
+
+
+__________________
+"DECLARATOR": "$"
+"LETTER": "a-z"
+"NUMBER": "1-9"
+
+
+
+
+$var variable_name = "asdfasdf";
+                 |
+                \/
+{"$", "Declarator"}, 
+{"var", "Variable"}, 
+{"v", "letter"}, 
+{"a", "letter"},
+{"r", "letter"},
+{"_", "underscore"},
+{"n", "letter"},
+{"a", "letter"},
+{"m", "letter"},
+{"e", "letter"},
+{"=", "equal"},
+{""", "Quote"},
+{"a", "letter"},
+{"s", "letter"},
+{"d", "letter"},
+{"f", "letter"},
+{"a", "letter"},
+{"s", "letter"},
+{"d", "letter"},
+{"f", "letter"},
+{";", "semicolon"}
